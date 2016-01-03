@@ -126,32 +126,8 @@
 .cnblogs-markdown h5,
 .cnblogs-markdown h6 {
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   line-height: 1.1;
-}
-
-.cnblogs-markdown h1 {
-  font-size: 30px;
-}
-
-.cnblogs-markdown h2 {
-  font-size: 21px;
-}
-
-.cnblogs-markdown h3 {
-  font-size: 16px;
-}
-
-.cnblogs-markdown h4 {
-  font-size: 14px;
-}
-
-.cnblogs-markdown h5 {
-  font-size: 12px;
-}
-
-.cnblogs-markdown h6 {
-  font-size: 11px;
 }
 
 .cnblogs-markdown blockquote {
@@ -282,7 +258,7 @@
 
 .cnblogs-markdown h1 {
   padding-bottom: 0.3em;
-  font-size: 2.25em;
+  font-size: 2.25em !important;
   line-height: 1.2;
   border-bottom: 1px solid #eee;
 }
@@ -293,7 +269,7 @@
 
 .cnblogs-markdown h2 {
   padding-bottom: 0.3em;
-  font-size: 1.75em;
+  font-size: 1.75em !important;
   line-height: 1.225;
   border-bottom: 1px solid #eee;
 }
@@ -303,7 +279,7 @@
 }
 
 .cnblogs-markdown h3 {
-  font-size: 1.5em;
+  font-size: 1.5em!important;
   line-height: 1.43;
 }
 
@@ -312,7 +288,7 @@
 }
 
 .cnblogs-markdown h4 {
-  font-size: 1.25em;
+  font-size: 1.25em !important; 
 }
 
 .cnblogs-markdown h4 .anchor {
@@ -320,7 +296,7 @@
 }
 
 .cnblogs-markdown h5 {
-  font-size: 1em;
+  font-size: 1em !important;
 }
 
 .cnblogs-markdown h5 .anchor {
@@ -328,7 +304,7 @@
 }
 
 .cnblogs-markdown h6 {
-  font-size: 1em;
+  font-size: 1em !important;
   color: #777;
 }
 
@@ -358,6 +334,7 @@
 .cnblogs-markdown ul,
 .cnblogs-markdown ol {
   padding-left: 2em;
+  font-size: 14px;
 }
 
 .cnblogs-markdown ul ul,
